@@ -1,0 +1,299 @@
+:root{
+    --negro: #000000;
+    --salmon: #f64b3c;
+    --piel: #f6eedf;
+    --blanco: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contenedor{
+    max-width: 1600px;
+    margin: 0 auto auto;
+}
+
+.header__imagen{
+    background: url(toolbar.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    /* background-color: transparent; */
+    color: var(--blanco);
+    background: linear-gradient (#000000, #ffffff);
+    height: auto;
+    
+}
+
+
+.header_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img{
+    padding: 30px 0px 0px 30px;
+}
+
+.nav__list{
+    display: flex;
+    gap: 10rem;
+    list-style: none;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+
+.inicio__contenedor{
+    display: flex;
+    flex-direction: column;
+    color: var(--blanco);
+    width: 40vw;
+    padding: 100px 30px 30px;
+    
+}
+
+.inicio__titulo{
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.inicio__parrafo{
+    padding-top: 32px;
+    font-weight: lighter;
+    padding-bottom: 60px;
+}
+
+
+.inicio__boton{
+    background-color: var(--salmon);
+    color: var(--blanco);
+    padding: 10px 50px 10px 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 30px;
+}
+
+
+.section__chef{
+    background-image: url(seccion2.png);
+    background-color: var(--piel);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.chef{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--salmon);
+    padding: 200px 0px 200px 0px;
+}
+
+.chef__contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.chef__titulo{
+    font-size: 64px;
+    font-weight: 550;
+    justify-self: center;
+    align-items: center;
+}
+
+.chef__parrafo{
+    text-align: center;
+}
+
+.chef__cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px 50px 50px;
+
+}
+.chef__1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.chef__nombre{
+    text-transform: uppercase;
+}
+
+.section_hambur{
+    background-color: var(--salmon);
+    color: var(--blanco);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* seccion hamburguesa 1 SECTION 3 */
+.hambur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.hambur__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.hambuer__contenido{
+    width: 50vw;
+    gap: 5rem;
+    padding: 50px 0px 50px 0px;
+}
+
+.hambur__titulo{
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.hambur__parrafo{
+    padding: 32px 0px 60px 0px;
+}
+
+
+.inicio__boton--blanco{
+    background-color: var(--blanco);
+    color: var(--salmon);
+    padding: 10px 50px 10px 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 30px;
+}
+
+/* seccion hamburguesa 2 SECTION 4 */
+
+.section__big{
+    background-image: url(seccion4.png);
+    background-color: var(--piel);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: var(--salmon);
+}
+
+
+
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.big__contenido{
+    width: 50vw;
+    gap: 5rem;
+    padding: 50px 0px 50px 0px;
+}
+
+.big__titulo{
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.big__parrafo{
+    padding: 32px 0px 60px 0px;
+}
+
+.big__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+/* SECTION 5 */
+.section__statistics{
+    background-color: var(--salmon);
+    color: var(--blanco);
+    width: 100vw;
+    height: 100vh;
+}
+
+.estadist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 0px 150px 0px;
+}
+
+.estadist__contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.estadist__titulo{
+    font-size: 90px;
+    font-weight: 500;
+}
+
+.estadist_parrafo{
+    text-align: center;
+}
+.estadist__cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 70px 0px 70px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--blanco);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.card__titulo{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.card__prof{
+    text-transform: uppercase;
+    font-size: 32px;
+}
