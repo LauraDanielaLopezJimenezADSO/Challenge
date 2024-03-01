@@ -297,3 +297,132 @@ body{
     text-transform: uppercase;
     font-size: 32px;
 }
+
+/* seccion 6 Package  */
+
+.section__popular{
+    background-image: url(section5.png);
+    background-color: var(--piel);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: var(--salmon);
+}
+
+.popular{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0px 150px 0px;
+    gap: 60px;
+}
+
+
+.popular__cards{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.popular__titulo{
+    font-size: 90px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.popular__cardUni{
+    background-color: var(--blanco);
+    color: var(--salmon);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 350px;
+    border-radius: 10px;
+    padding: 32px;
+    
+}
+
+.popular__sub{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.popular__precio{
+    font-weight: 700;
+}
+
+.popular__parrafo{
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+/* section 7 -- imagen de fondo */
+.section__fondo{
+    background-image: url(section6.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: var(--blanco);
+}
+
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.div__fondo{
+    width: 100vh;
+}
+
+.fondo__parrafo{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    /* padding-bottom: 90px; */
+}
+
+
+.fondo__titulo{
+    font-size: 64px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    padding-top: 90px;
+}
+
+/* section 8 */
+
+.section_action{
+    background-image: url(section8.png);
+    background-color: var(--piel);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: var(--salmon);
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px 0px 150px 0px;
+}
+
+.action__titulo{
+    font-size: 90px;
+    font-weight: 700;
+}
+.action_parrafo{
+    font-weight: lighter;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
